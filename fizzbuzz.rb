@@ -15,6 +15,6 @@ class Fizzbuzz
 	  end
   end
 
-end				
+end
 f = Fizzbuzz.new
-f.fizzbuzz(50)			
+f.fizzbuzz(60)
