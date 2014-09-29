@@ -32,3 +32,5 @@ require 'CSV'
 end
 
 FizzbuzzTwo.new(17)
+FizzbuzzTwo.new(15)
+FizzbuzzTwo.new(26)
