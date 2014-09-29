@@ -1,17 +1,17 @@
-class Fizzbuzztwo
+class FizzbuzzTwo
 
 require 'CSV'
 
   def initialize(n)
-    values = readvalues
-    fizzbuzzadv(values, n)
+    values = read_values
+    fizzbuzz_adv(values, n)
   end
 
-  def readvalues
+  def read_values
     CSV.read('./fizzbuzz.csv')
   end
 
-  def fizzbuzzadv(values, n)
+  def fizzbuzz_adv(values, n)
     found = false
     row = 0
     while row < values.length
@@ -31,4 +31,4 @@ require 'CSV'
 
 end
 
-Fizzbuzztwo.new(17)
+FizzbuzzTwo.new(17)
